@@ -15,5 +15,5 @@ A super simple crate to map values from a range to another range.
 
 ```rust
 use map_range::MapRange;
-let _ = _5_i32.map_range(0..10, -10..10);
+let _ = 5_i32.map_range(0..10, -10..10);
 ```
