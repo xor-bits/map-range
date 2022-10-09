@@ -1,0 +1,18 @@
+[package]
+name = "map-range"
+version = "0.1.0"
+edition = "2021"
+description = "map a value from a range to another range"
+license = "MIT"
+repository = "https://github.com/Overpeek/map-range"
+documentation = "https://docs.rs/map-range"
+keywords = ["map", "range", "math", "remap"]
+categories = ["mathematics", "no-std", "game-development", "algorithms"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+num-traits = "0.2.15"
+
+[dev-dependencies]
+rand = "0.8.5"
