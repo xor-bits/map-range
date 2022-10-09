@@ -1,6 +1,6 @@
 <div align="center">
 
-# fontsdf
+# map-range
 
 A super simple crate to map values from a range to another range.
 

@@ -1,6 +1,6 @@
 [package]
 name = "map-range"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 description = "map a value from a range to another range"
 license = "MIT"
