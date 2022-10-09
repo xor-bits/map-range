@@ -2,8 +2,8 @@
 
 //
 
+use core::ops::{Add, Div, Mul, Range, Sub};
 use num_traits::{CheckedAdd, CheckedDiv, CheckedMul, CheckedSub};
-use std::ops::{Add, Div, Mul, Range, Sub};
 
 //
 
