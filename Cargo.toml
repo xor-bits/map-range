@@ -11,8 +11,12 @@ categories = ["mathematics", "no-std", "game-development", "algorithms"]
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
+[features]
+default = ["std"]
+std = ["num-traits/std"]
+
 [dependencies]
-num-traits = "0.2.15"
+num-traits = { version = "0.2.15", default-features=false }
 
 [dev-dependencies]
 rand = "0.8.5"
