@@ -33,7 +33,7 @@ checksum = "329c933548736bc49fd575ee68c89e8be4d260064184389a5b77517cddd99ffb"
 
 [[package]]
 name = "map-range"
-version = "0.1.1"
+version = "0.1.2"
 dependencies = [
  "num-traits",
  "rand",
