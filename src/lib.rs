@@ -128,4 +128,9 @@ mod tests {
         assert!((5.0_f32.map_range(0.0..10.0, 0.0..20.0) - 10.0).abs() <= f32::EPSILON);
         assert!((5.0_f32.map_range(0.0..10.0, 10.0..0.0) - 5.0).abs() <= f32::EPSILON);
     }
+
+    #[test]
+    fn test_i32_map() {
+        assert_eq!(5_i32.map_range(0..10, -10..10), 0);
+    }
 }
